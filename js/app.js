@@ -10,6 +10,7 @@ function PreetyPic(title, image_url, description, keyword, horns) {
 }
 PreetyPic.allPics = [];
 
+
 PreetyPic.prototype.renderPic = function(){
   const $liCopy = $('li:first-child').clone();
   $liCopy.find('h2').text(this.title);
