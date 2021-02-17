@@ -1,0 +1,18 @@
+ul {
+  max-width: 90%;
+  /* margin: auto; */
+}
+
+li {
+  width: 33%;
+}
+
+img {
+  width: 50%;
+  /* margin: auto; */
+  display: block;
+}
+
+#template {
+  float: left;
+}
