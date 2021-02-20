@@ -1,5 +1,30 @@
+header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+header h1 {
+  font-family: 'Reggae One', cursive;
+  font-size: xx-large;
+  align-self: center;
+}
+
+body{
+  display: flex;
+  /* align-items:flex-start; */
+  flex-flow:column wrap;
+  
+}
+section select {
+  display: flex;
+  flex-direction: row;
+}
+
 ul {
   max-width: 90%;
+  display: flex;
+  flex-flow: row wrap;  
   /* margin: auto; */
 }
 
@@ -8,11 +33,26 @@ li {
 }
 
 img {
-  width: 50%;
+  width: 200px;
   /* margin: auto; */
-  display: block;
+  /* display: block; */
 }
-
-#template {
+h2 {
+  font-family: 'Reggae One', cursive;
+  font-size: larger;
+}
+p {
+  font-family: cursive;
+}
+div {
+  width: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  border-style: solid;
+  border-color: black;
+  
+}
+  
+/* #template {
   float: left;
-}
+} */
